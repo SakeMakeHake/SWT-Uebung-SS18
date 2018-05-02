@@ -10,10 +10,12 @@ public class MyTaxiTest
         Human m5 = new Human("Lucky","Fuke");
         Taxi Taxi1 = new Taxi(driver);
         Taxi1.add(m1);
-        //Taxi1.add(m2);
+        Taxi1.add(m2);
         //Taxi1.add(m3);
 
         System.out.println(Taxi1.toString());
+
+        Taxi1.allGetOut();
 
 
     }
