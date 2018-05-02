@@ -6,7 +6,7 @@ public class Koenigreich {
         steuerbescheid(new Koenig(), 100);
         steuerbescheid(new Adel(), 20);
         steuerbescheid(new Bauer(), 20);
-        steuerbescheid(new Leibeigener(), 20);
+        steuerbescheid(new Leibeigener(), 100);
     }
 
     static void steuerbescheid(Einwohner einwohner, int einkommen) {
