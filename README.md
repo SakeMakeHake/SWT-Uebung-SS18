@@ -1,1 +1,0 @@
-# SWT-bung-SS18
